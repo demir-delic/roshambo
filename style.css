@@ -1,0 +1,28 @@
+#backdrop {
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    background-color: #888888;
+    border-radius: 5%;
+    color: #2a2a2a;
+  }
+  
+  .btn {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    float: left;
+    border-radius: 100%;
+    background-color: #73B1B7;
+    font-size: 28px;
+    color: inherit;
+  }
+  
+  #outcomeAlert {
+    height: 150px;
+    width: 570px;
+    padding: 250px 15px 15px 15px;
+    text-align: center;
+    font-size: 40px;
+    color: inherit;
+  }
