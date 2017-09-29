@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Roshambo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
     <link rel="stylesheet" href="style.css">
+    <title>Roshambo</title>
 </head>
+
 <body>
-    <div id="backdrop">
-      <button class="btn" onclick="play('Rock');">Rock</button>
-      <button class="btn" onclick="play('Paper');">Paper</button>
-      <button class="btn" onclick="play('Scissors');">Scissors</button>
-      <div id="outcomeAlert">Who will win?</div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xs-4">                            
+                <button id="rock" class="btn">Rock</button>
+            </div>
+            <div class="col-xs-4">                            
+                <button id="paper" class="btn">Paper</button>
+            </div>
+            <div class="col-xs-4">                            
+                <button id="scissors" class="btn">Scissors</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="outcomeAlert" class="text-center">Who will win?</div>  
+            </div>   
+        </div>
+        <div class="container">
+                <h2></h2>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span class="sr-only">70% Complete</span>
+                  </div>
+                </div>
+              </div>
     </div>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
