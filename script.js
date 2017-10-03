@@ -60,7 +60,6 @@
             document.body.style = "background-color: #ff0000";
         }
         progress.style = `width: ${(playerScore / (playerScore + computerScore))*100}%`;
-        console.log(`${(playerScore / (playerScore + computerScore))*100}%`)
     }
 
 })();
